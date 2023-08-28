@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 40vw;
+    height: 60vh;
+    background: #2525256e;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logItem {
+    display: flex;
+
+    /* position: absolute; */
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form input,
+textarea {
+    outline: none;
+    border: none;
+    padding: 5px 2px;
+    width: 20rem;
+    font-size: 1rem;
+}
+
+.controler {
+    display: flex;
+    margin-left: -3rem;
+}
+
+a,
+.icon {
+    background: #39383846;
+    width: 50px;
+    height: 50px;
+    color: aquamarine;
+    border-radius: 50%;
+    outline: none;
+    border: 0;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.icon:hover {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.cover {
+    display: none;
+}
+
+#reset,
+#save {
+    background: #f7b733;
+    color: white;
+    padding: .4rem .7rem;
+    border-radius: 13px;
+    text-decoration: none;
+    width: 10rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#reset:hover,
+#save:hover {
+    background: #f7d033;
+    color: white;
+    padding: .4rem .7rem;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    text-decoration: none;
+    width: 10rem;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

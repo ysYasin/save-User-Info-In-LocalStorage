@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn from Local Storage</title>
+    <!-- font Wosome kit  -->
+    <script src="https://kit.fontawesome.com/dbd74cafef.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/srtyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="logItem">
+                <input type="text" id="NameId" placeholder="Put you Name Please">
+                <div class="controler">
+                    <a class="saveName  icon"><i class="fa-solid fa-check"></i></a>
+                    <a class="deletName cover icon"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+            <div class="logItem">
+                <input type="email" id="mailId" placeholder="Put you email Address Please">
+                <div class="controler">
+                    <a class="saveEmail  icon"><i class="fa-solid fa-check"></i></a>
+                    <a class="deletEmail cover icon"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+            <div class="logItem">
+                <textarea id="aboutMe" placeholder="Say Something About yourSelf"></textarea>
+                <div class="controler">
+                    <a class="saveComment  icon"><i class="fa-solid fa-check"></i></a>
+                    <a class="deletComment cover icon"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+        </form>
+        <div class="btns">
+            <a id="save">SAVE</a>
+            <a id="reset">reset</a>
+        </div>
+    </div>
+    <script src="jds/app.js"></script>
+</body>
+
+</html>
